@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://biggerex.github.io</id>
     <title>biggerex</title>
-    <updated>2021-11-18T08:49:27.733Z</updated>
+    <updated>2021-11-18T08:51:43.320Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://biggerex.github.io"/>
     <link rel="self" href="https://biggerex.github.io/atom.xml"/>
@@ -16,8 +16,7 @@
         <link href="https://biggerex.github.io/post/kuai-su-shang-shou/">
         </link>
         <updated>2021-11-18T07:11:51.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-0.png" alt="" loading="lazy"></figure>
-<p>你好，欢迎开始愉快的 Gridea 之旅呀～</p>
+        <content type="html"><![CDATA[<p>你好，欢迎开始愉快的 Gridea 之旅呀～</p>
 <h1 id="安装">安装</h1>
 <p>安装 <a href='https://gridea.dev/' target='blank'>Gridea</a></p>
 <h1 id="写作">写作</h1>
