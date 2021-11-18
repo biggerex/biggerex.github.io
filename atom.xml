@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://biggerex.github.io</id>
     <title>biggerex</title>
-    <updated>2021-11-18T08:36:15.968Z</updated>
+    <updated>2021-11-18T08:48:13.794Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://biggerex.github.io"/>
     <link rel="self" href="https://biggerex.github.io/atom.xml"/>
@@ -24,17 +24,15 @@
 <p>相信你自己可以搞得定哦，加油写作啦！</p>
 <h1 id="发布">发布</h1>
 <p><strong>Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP 的方式上传到自己的服务器的功能。下面将以 GitHub 为例，来讲一下部署流程。</strong></p>
-<ul>
-<li>创建 GitHub 账号，并创建一个仓库 Token。点击GitHub，进行注册。登录 GitHub 之后，点击这里创建一个 Token，勾选上 repo 的相关权限即可。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。<br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-1.png" alt="" loading="lazy"></li>
-<li>创建仓库，存放构建后的网站文件。创建一个公开仓库，名为用户名.github.io。（将用户名替换为你的 GitHub 用户名）<br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-2.png" alt="" loading="lazy"></li>
-<li>进入 Gridea 进行远程设置。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。<br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-3.png" alt="" loading="lazy"></li>
-<li>同步。点击 Gridea 中的 同步按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你在第 3 步所填写的域名。<br>
+<p>1.创建 GitHub 账号，并创建一个仓库 Token。点击GitHub，进行注册。登录 GitHub 之后，点击这里创建一个 Token，勾选上 repo 的相关权限即可。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-1.png" alt="" loading="lazy"><br>
+1.创建仓库，存放构建后的网站文件。创建一个公开仓库，名为用户名.github.io。（将用户名替换为你的 GitHub 用户名）<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-2.png" alt="" loading="lazy"><br>
+1.进入 Gridea 进行远程设置。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-3.png" alt="" loading="lazy"><br>
+1.同步。点击 Gridea 中的 同步按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你在第 3 步所填写的域名。<br>
 <img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-4.png" alt="" loading="lazy"><br>
-以上，就完成一个静态博客的搭建了，期待你的每一次落笔成文。</li>
-</ul>
+以上，就完成一个静态博客的搭建了，期待你的每一次落笔成文。</p>
 ]]></content>
     </entry>
 </feed>
