@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://biggerex.github.io</id>
     <title>biggerex</title>
-    <updated>2021-11-19T03:52:11.450Z</updated>
+    <updated>2021-11-25T00:39:16.598Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://biggerex.github.io"/>
     <link rel="self" href="https://biggerex.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://biggerex.github.io/images/avatar.png</logo>
     <icon>https://biggerex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, biggerex</rights>
+    <entry>
+        <title type="html"><![CDATA[区块链完美解决“官方托”问题]]></title>
+        <id>https://biggerex.github.io/post/qu-kuai-lian-wan-mei-jie-jue-guan-fang-tuo-wen-ti/</id>
+        <link href="https://biggerex.github.io/post/qu-kuai-lian-wan-mei-jie-jue-guan-fang-tuo-wen-ti/">
+        </link>
+        <updated>2021-11-25T00:37:16.000Z</updated>
+        <content type="html"><![CDATA[<p>玩家质疑腾讯端游有官方托集体删号</p>
+<p>近日，因深陷官方游戏“托”风波，一批天涯明月刀千万级玩家带头直播销号，引发集体删号退游事件。对此腾讯官方否认了存在内部账号，并进行道歉和补偿，称游戏道具错误投放，但玩家对此并“不买账”。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea快手🌰]]></title>
         <id>https://biggerex.github.io/post/kuai-su-shang-shou/</id>
