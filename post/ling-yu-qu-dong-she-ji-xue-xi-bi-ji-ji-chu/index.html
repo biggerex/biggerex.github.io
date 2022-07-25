@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea快手🌰 | biggerex</title>
+<title>领域驱动设计学习笔记-基础 | biggerex</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,13 +18,15 @@
 
 
 
-    <meta name="description" content="你好，欢迎开始愉快的 Gridea 之旅呀～
-安装
-安装 Gridea
-写作
-相信你自己可以搞得定哦，加油写作啦！
-发布
-Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP 的方式上传到自..." />
+    <meta name="description" content="软件架构 / 作者： thinkclaves
+一、核心思想与解决的痛点问题
+1.1 模型和建模
+模型是领域的抽象和模拟
+建模是针对特定问题建立领域的合理模型
+1.2软件系统复杂性
+业务复杂导致模型复杂
+技术实现引入额外复杂性
+ddd核心思想..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -96,34 +98,45 @@ Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP �
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">Gridea快手🌰</h2>
-            <div class="post-date">2021-11-18</div>
-            
-              <div class="feature-container" style="background-image: url('https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-0.png')">
-              </div>
+            <h2 class="post-title">领域驱动设计学习笔记-基础</h2>
+            <div class="post-date">2022-07-25</div>
             
             <div class="post-content" v-pre>
-              <p>你好，欢迎开始愉快的 Gridea 之旅呀～</p>
-<h1 id="安装">安装</h1>
-<p>安装 <a href='https://gridea.dev/' target='blank'>Gridea</a></p>
-<h1 id="写作">写作</h1>
-<p>相信你自己可以搞得定哦，加油写作啦！</p>
-<h1 id="发布">发布</h1>
-<p><code>Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP 的方式上传到自己的服务器的功能。下面将以 GitHub 为例，来讲一下部署流程。</code></p>
-<ol>
-<li><strong>创建 GitHub 账号，并创建一个仓库 Token。点击GitHub，进行注册。登录 GitHub 之后，点击这里创建一个 Token，勾选上 repo 的相关权限即可。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。</strong><br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-1.png" alt="" loading="lazy"></li>
-<li><strong>创建仓库，存放构建后的网站文件。创建一个公开仓库，名为用户名.github.io。（将用户名替换为你的 GitHub 用户名）</strong><br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-2.png" alt="" loading="lazy"></li>
-<li><strong>进入 Gridea 进行远程设置。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。</strong><br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-3.png" alt="" loading="lazy"></li>
-<li><strong>同步。点击 Gridea 中的 同步按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你在第 3 步所填写的域名。</strong><br>
-<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/gridea-4.png" alt="" loading="lazy"><br>
-以上，就完成一个静态博客的搭建了，期待你的每一次落笔成文。</li>
-</ol>
+              <p>软件架构 / 作者： thinkclaves<br>
+一、核心思想与解决的痛点问题<br>
+1.1 模型和建模<br>
+模型是领域的抽象和模拟</p>
+<p>建模是针对特定问题建立领域的合理模型</p>
+<p>1.2软件系统复杂性<br>
+业务复杂导致模型复杂</p>
+<p>技术实现引入额外复杂性</p>
+<p>ddd核心思想一：模型分解<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image.png" alt="" loading="lazy"><br>
+ddd核心思想二：模型驱动设计<br>
+模型驱动设计（Model Driven Design）：通过分层架构隔离领域层、仔细选择模型和设计方案等措施保持实现与模型的一致。<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image-1.png" alt="" loading="lazy"></p>
+<p>领域驱动设计通过分解模型和模型驱动设计控制复杂性。</p>
+<p>二、面向对象与敏捷与ddd区别于联系<br>
+2.1 ddd与面向对象<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image-2.png" alt="" loading="lazy"><br>
+区别：OOAD没有战略设计；DDD通过战略设计划分领域和模型。OOAD仅用对象描述世界；DDD的描述更细致。</p>
+<p>联系：OOAD和DDD都是建模和设计思想，部分建模方法和工具可复用。</p>
+<p>2.2ddd与敏捷<br>
+敏捷是增量式开发模式。<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image-3.png" alt="" loading="lazy"></p>
+<p>敏捷：关注流程和文化；DDD：关注建模设计方法。敏捷：重人员轻文档；DDD：重视统一语言建立</p>
 
             </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://biggerex.github.io/post/yuan-yu-zhou-jiu-jing-shi-shi-me-ni/">
+                  <h3 class="post-title">
+                    “元宇宙”究竟是什么呢？
+                  </h3>
+                </a>
+              </div>
             
 
             

@@ -2,14 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://biggerex.github.io</id>
     <title>biggerex</title>
-    <updated>2021-12-07T01:45:14.041Z</updated>
+    <updated>2022-07-25T09:33:32.371Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://biggerex.github.io"/>
     <link rel="self" href="https://biggerex.github.io/atom.xml"/>
     <subtitle>币格</subtitle>
     <logo>https://biggerex.github.io/images/avatar.png</logo>
     <icon>https://biggerex.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, biggerex</rights>
+    <rights>All rights reserved 2022, biggerex</rights>
+    <entry>
+        <title type="html"><![CDATA[领域驱动设计学习笔记-基础]]></title>
+        <id>https://biggerex.github.io/post/ling-yu-qu-dong-she-ji-xue-xi-bi-ji-ji-chu/</id>
+        <link href="https://biggerex.github.io/post/ling-yu-qu-dong-she-ji-xue-xi-bi-ji-ji-chu/">
+        </link>
+        <updated>2022-07-25T09:07:57.000Z</updated>
+        <content type="html"><![CDATA[<p>软件架构 / 作者： thinkclaves<br>
+一、核心思想与解决的痛点问题<br>
+1.1 模型和建模<br>
+模型是领域的抽象和模拟</p>
+<p>建模是针对特定问题建立领域的合理模型</p>
+<p>1.2软件系统复杂性<br>
+业务复杂导致模型复杂</p>
+<p>技术实现引入额外复杂性</p>
+<p>ddd核心思想一：模型分解<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image.png" alt="" loading="lazy"><br>
+ddd核心思想二：模型驱动设计<br>
+模型驱动设计（Model Driven Design）：通过分层架构隔离领域层、仔细选择模型和设计方案等措施保持实现与模型的一致。<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image-1.png" alt="" loading="lazy"></p>
+<p>领域驱动设计通过分解模型和模型驱动设计控制复杂性。</p>
+<p>二、面向对象与敏捷与ddd区别于联系<br>
+2.1 ddd与面向对象<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image-2.png" alt="" loading="lazy"><br>
+区别：OOAD没有战略设计；DDD通过战略设计划分领域和模型。OOAD仅用对象描述世界；DDD的描述更细致。</p>
+<p>联系：OOAD和DDD都是建模和设计思想，部分建模方法和工具可复用。</p>
+<p>2.2ddd与敏捷<br>
+敏捷是增量式开发模式。<br>
+<img src="https://cdn.jsdelivr.net/gh/biggerex/bigcdn@main/blog/static/img/image-3.png" alt="" loading="lazy"></p>
+<p>敏捷：关注流程和文化；DDD：关注建模设计方法。敏捷：重人员轻文档；DDD：重视统一语言建立</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“元宇宙”究竟是什么呢？]]></title>
         <id>https://biggerex.github.io/post/yuan-yu-zhou-jiu-jing-shi-shi-me-ni/</id>
