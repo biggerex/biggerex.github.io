@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://biggerex.github.io</id>
     <title>biggerex</title>
-    <updated>2022-07-25T09:38:01.389Z</updated>
+    <updated>2022-07-26T01:23:23.096Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://biggerex.github.io"/>
     <link rel="self" href="https://biggerex.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://biggerex.github.io/images/avatar.png</logo>
     <icon>https://biggerex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, biggerex</rights>
+    <entry>
+        <title type="html"><![CDATA[单价成本]]></title>
+        <id>https://biggerex.github.io/post/dan-jie-cheng-ben/</id>
+        <link href="https://biggerex.github.io/post/dan-jie-cheng-ben/">
+        </link>
+        <updated>2022-07-26T01:22:05.000Z</updated>
+        <content type="html"><![CDATA[<p>测算基础	人月单价	20000 		<br>
+税前薪资	11000 	55.00%	包括：月工资、津贴、差补<br>
+缴税	缴税：	1400 	7.00%	增值税+企业所得税<br>
+人力成本	社保：	1100 	5.50%	社保公司缴纳部分<br>
+年终奖：	917 	4.58%	年终奖一个月工资，摊到每个月<br>
+损耗：	1212 	6.06%	每年11个法定节假日+5天年假<br>
+管理成本	公摊：	1000 	5.00%	管理人员/职场/招聘/财务<br>
+激励费：	200 	1.00%	<br>
+销售费用：	0 	0.00%	<br>
+招待费	400 	2.00%	<br>
+利润		2771 	13.86%</p>
+<p>成本系数			1.57</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[领域驱动设计学习笔记-基础]]></title>
         <id>https://biggerex.github.io/post/ling-yu-qu-dong-she-ji-xue-xi-bi-ji-ji-chu/</id>
